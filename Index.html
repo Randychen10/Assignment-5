@@ -1,21 +1,65 @@
-<svg viewBox = "0 0 300 300">
-    <rect
-    width="100%" height="25%"
-    fill="white"/>
-    <circle
-    r="20" cx="250" cy="40" fill="blue" stroke="pink"/>
-    <rect/>
-    <polygon points="200,10 250,190 150,190"
-    style="fill:blue;stroke:pink;stroke-width:3"
-    transform="scale(2em 1.5em)"/>
-    <text x="50" y="30" fill="pink" stroke="blue" 
-    font-size="18" rotate="20">
-      Hello!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="path/to/your/external/style.css">
+  <script defer src="path/to/your/external/script.js"></script>
+  <title>Your Website Title</title>
+</head>
+
+<body>
+
+  <!-- Custom SVG Banner -->
+  <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="100%" height="300" viewBox="0 0 300 30">
+    <!-- Circle -->
+    <circle cx="70" cy="15" r="5" fill="red" />
+    <!-- Rectangle -->
+    <rect x="25" y="10" width="10" height="10" fill="blue" />
+    <!-- Polygon -->
+    <polygon points="40,5 45,15 35,15" fill="green" />
+    <!-- Text -->
+    <text fill="white" x="100" y="10">
+      Hello
     </text>
-    <g>
-        <path/>
-       <circle>
-        <animateMotion/>
-      </circle>
-    </g>
-</svg>
+  </svg>
+
+  <!-- Navigation Menu -->
+  <nav class="menu">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./views/two.html">Page Two</a></li>
+      <li><a href="./views/three.html">Page Three</a></li>
+    </ul>
+  </nav>
+
+  <!-- Heading 1 -->
+  <h1>Assignment 5</h1>
+
+  <!-- Heading 2 - CSS Question -->
+  <h2 class="css-question">How to Apply CSS to HTML</h2>
+
+  <!-- Paragraph - CSS Question -->
+  <p class="css-question">
+    To include an external CSS file in an HTML document, use the following example:
+    <pre><code>&lt;link rel="stylesheet" href="path/to/your/style.css"&gt;</code></pre>
+  </p>
+
+  <!-- Heading 2 - JavaScript Question -->
+  <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+
+  <!-- Paragraph - JavaScript Question -->
+  <p class="js-question">
+    To link to an external JavaScript file, use the following example:
+    <pre><code>&lt;script defer src="path/to/your/script.js"&gt;&lt;/script&gt;</code></pre>
+
+    To write JavaScript code within an HTML file, use the following example:
+    <pre><code>&lt;script&gt;
+      // Your JavaScript code here
+    &lt;/script&gt;</code></pre>
+  </p>
+
+</body>
+
+</html>
