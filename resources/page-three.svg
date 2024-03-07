@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Square -->
+  <rect x="10" y="10" width="40" height="40" fill="none" stroke="black"/>
+
+  <!-- Red Circle Animated along the Square -->
+  <circle cx="10" cy="10" r="2" fill="red">
+    <animateMotion begin="0s" dur="6s" repeatCount="indefinite" path=/>
+      <mpath href="#path-square" />
+  </circle>
+
+  <!-- Path Defining the Square -->
+  <path id="path-square" d="M0,0 H40 V40 H0 V0 H40" fill="none" />
+</svg>
+
+</body>
+</html>
