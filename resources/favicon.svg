@@ -6,15 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+
+  <link rel="icon" href="path-to-your-favicon.svg" type="image/svg+xml">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <!-- Square -->
   <rect x="10" y="10" width="80" height="80" fill="none" stroke="black" stroke-width="2" />
 
   <!-- Red Circle Animated along the Square -->
   <circle cx="20" cy="20" r="5" fill="red">
-    <animateMotion repeatCount="indefinite" dur="6s" keyPoints="0;1;0">
+    <animate begin="0s" dur="6s" repeatCount="indefinite" keyPoints="0;1;0"/>
       <mpath href="#path-square" />
-    </animateMotion>
   </circle>
 
   <!-- Path Defining the Square -->
