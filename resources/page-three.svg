@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <!-- Square -->
-  <rect x="10" y="10" width="40" height="40" fill="none" stroke="grey"/>
+  <rect x="10" y="10" width="25" height="25" fill="none" style="stroke:grey; stroke-width:0.5"/>
 
   <!-- Red Circle Animated along the Square -->
-  <circle cx="10" cy="10" r="2" fill="red">
+  <circle cx="10" cy="10" r="1" fill="red">
     <animateMotion begin="0s" dur="10s" repeatCount="indefinite">
       <mpath href="#path-square" />
     </animateMotion>
   </circle>
 
   <!-- Path Defining the Square -->
-  <path id="path-square" d="M40,0 H40 V40 H0 V0 H40" fill="none" />
+  <path id="path-square" d="M25,0 H25 V25 H0 V0 H25" fill="none" />
 </svg>
